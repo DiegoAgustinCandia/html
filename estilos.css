@@ -1,16 +1,25 @@
-.body {
+body {
     margin: 0;
     padding: 0;
-}
-
-.header {
-    background-color: red;
+    background-color: crimson;
+    color: white;
 }
 
 .h1 {
-    background-color: blue;
     color: white;
-    height: 45px;
-    padding: 5px;
+    font-size: 3em;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.encabezado {
+    border: 3px solid black;
+    width: 65vw;
+    margin: auto;
     text-align: center;
 }
